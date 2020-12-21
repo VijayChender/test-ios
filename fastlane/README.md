@@ -33,6 +33,21 @@ This will also make sure the profile is up to date
 fastlane ios release
 ```
 Deploy a new version to the App Store
+### ios i
+```
+fastlane ios i
+```
+Archive and Build IPA
+### ios CI
+```
+fastlane ios CI
+```
+Description of what the lane does
+### ios CD
+```
+fastlane ios CD
+```
+
 
 ----
 
