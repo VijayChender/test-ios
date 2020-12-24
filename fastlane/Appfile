@@ -1,0 +1,8 @@
+app_identifier("com.centurylink.DCEPConsumerMobile") # The bundle identifier of your app
+apple_id("santhosh.r.kumar@centurylink.com") # Your Apple email address
+
+itc_team_id("119539598") # App Store Connect Team ID
+team_id("LV54BX834W") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
