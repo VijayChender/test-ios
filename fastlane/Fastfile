@@ -58,12 +58,13 @@ platform :ios do
     # frameit
   end
 
-desc “Archive and Build IPA”
+desc "Archive and Build IPA"
       lane :i do
        #install_pods
        #increment_build
  
-gym(scheme: 'MetricsApp', project: "MetricsApp.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc',output_directory: "/Users/santhosh.kumar/Documents/Backup")
+gym(scheme: "MetricsApp", project: "MetricsApp.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: "ad-hoc",output_directory: "/Users/santhosh.kumar/Documents/Backup")
+
        end
 
  desc "Description of what the lane does"
