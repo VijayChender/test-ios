@@ -139,13 +139,6 @@
 			path = "Key Metrics";
 			sourceTree = "<group>";
 		};
-		558AA9172469C2E700AF52AA /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		558AA91D2474736900AF52AA /* Login Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,7 +180,6 @@
 			children = (
 				55333D4424D87AC8003D1054 /* API Service */,
 				558AA91D2474736900AF52AA /* Login Screen */,
-				558AA9172469C2E700AF52AA /* Network */,
 				558AA910246996B000AF52AA /* Key Metrics */,
 				55A6DE2C2457201000FA63D6 /* Pages Visited */,
 				55A6DE2B24571FF900FA63D6 /* Bounce Rates */,
