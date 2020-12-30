@@ -23,7 +23,7 @@ extension BaseViewController{
         popToastLabel.lineBreakMode = .byWordWrapping
         popToastLabel.textColor = .white
         self.navigationController?.view.addSubview(popToastLabel)
-        self.popToastLabel.needsUpdateConstraints()
+        self.popToastLabel.needsUpdateConstraints() 
         
         NSLayoutConstraint.on([
             popToastLabel.pinLeft(view: popToastLabel, refView: self.navigationController!.view, thisConstant: offset),
