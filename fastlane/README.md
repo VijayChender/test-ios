@@ -16,11 +16,16 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios beta
+### ios CI
 ```
-fastlane ios beta
+fastlane ios CI
 ```
-Push a new beta build to TestFlight
+Description of what the lane does
+### ios CD
+```
+fastlane ios CD
+```
+
 
 ----
 

@@ -29,7 +29,7 @@ platform :ios do
   desc "Description of what the lane does"
   lane :CI do
       run_tests(project: "MetricsApp.xcodeproj",
-      devices: ["iPhone 6s"],
+      devices: ["iPhone 11 Pro"],
       scheme: "MetricsApp")
   end
  
