@@ -11,7 +11,6 @@ import UIKit
 
 extension BaseViewController{
     func setToastPopup(){
-        
         popToastLabel = UILabel(frame: CGRect(x: offset, y: -50, width: screenWidth - 2 * offset, height: 30))
         popToastLabel.backgroundColor = UIColor(red: 223/255, green: 98/255, blue: 90/255, alpha: 1.0)
         popToastLabel.layer.borderWidth = 1
