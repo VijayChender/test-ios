@@ -19,7 +19,7 @@ extension BaseViewController{
         popToastLabel.clipsToBounds = true
         popToastLabel.textAlignment = .center
         popToastLabel.numberOfLines = 0
-        popToastLabel.font = UIFont(name: "helvetica neue", size: 13.5)
+        popToastLabel.font = UIFont(name: "helvetica neue", size: 13)
         popToastLabel.lineBreakMode = .byWordWrapping
         popToastLabel.textColor = .white
         self.navigationController?.view.addSubview(popToastLabel)
