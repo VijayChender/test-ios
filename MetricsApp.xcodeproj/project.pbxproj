@@ -11,6 +11,7 @@
 		5541296924D220AC003DC093 /* BaseViewToastItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541296824D220AC003DC093 /* BaseViewToastItem.swift */; };
 		5541296B24D22221003DC093 /* BaseViewNavbarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541296A24D22221003DC093 /* BaseViewNavbarItems.swift */; };
 		5541296D24D222A1003DC093 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541296C24D222A1003DC093 /* NetworkReachability.swift */; };
+		5582242825ACD7D4006E5C2D /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 5582242725ACD7D4006E5C2D /* Jenkinsfile */; };
 		558AA914246996F400AF52AA /* KeyMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AA913246996F400AF52AA /* KeyMetricsView.swift */; };
 		558AA9162469973F00AF52AA /* KeyMetricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AA9152469973F00AF52AA /* KeyMetricsViewController.swift */; };
 		558AA91F2474737C00AF52AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AA91E2474737C00AF52AA /* LoginViewController.swift */; };
@@ -59,6 +60,7 @@
 		5541296824D220AC003DC093 /* BaseViewToastItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewToastItem.swift; sourceTree = "<group>"; };
 		5541296A24D22221003DC093 /* BaseViewNavbarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewNavbarItems.swift; sourceTree = "<group>"; };
 		5541296C24D222A1003DC093 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		5582242725ACD7D4006E5C2D /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		558AA913246996F400AF52AA /* KeyMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyMetricsView.swift; sourceTree = "<group>"; };
 		558AA9152469973F00AF52AA /* KeyMetricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyMetricsViewController.swift; sourceTree = "<group>"; };
 		558AA91E2474737C00AF52AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		55A6DDF62453714600FA63D6 = {
 			isa = PBXGroup;
 			children = (
+				5582242725ACD7D4006E5C2D /* Jenkinsfile */,
 				55A6DE012453714600FA63D6 /* MetricsApp */,
 				55F4D6E42590704E002CDF2A /* MetricsAppTests */,
 				55A6DE002453714600FA63D6 /* Products */,
@@ -377,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A6DE0F2453714700FA63D6 /* LaunchScreen.storyboard in Resources */,
+				5582242825ACD7D4006E5C2D /* Jenkinsfile in Resources */,
 				55A6DE0C2453714700FA63D6 /* Assets.xcassets in Resources */,
 				55A6DE0A2453714600FA63D6 /* Main.storyboard in Resources */,
 			);
