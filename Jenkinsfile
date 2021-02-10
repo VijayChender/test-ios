@@ -12,7 +12,12 @@ def XCODE_VERSION = '11.3'
 def XCODE_DEVICE = 'iPhone 11'
 
 pipeline {
-    agent { label 'ios' }
+    agent {
+	    dockerfile {
+                    filename 'Dockerfile'
+                    label 'Docker-enabled' 
+                }
+    }
     options {
         timeout(time: 1, unit: 'HOURS')
     }
@@ -20,7 +25,7 @@ pipeline {
         stage('Prepare Agent') {
             steps {
                 script {
-                    removeCache()
+                    //removeCache()
                     ios.prepareEnvironment(device: XCODE_DEVICE, xcode: XCODE_VERSION, cocoapods: false)
                 }
             }
