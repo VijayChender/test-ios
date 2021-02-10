@@ -6,8 +6,8 @@ def WORKSPACE = "MetricsApp.xcodeproj/project.xcworkspace"
 def SCHEME = "MetricsApp"
 def SOURCE = "MetricsApp"
 def SSH_CREDS = 'ec308abf-2ec7-4ade-b7f8-8969b1cb41f0'
-#def SLACK_ALWAYS_CHANNEL = "#centurylink-alerts"
-#def SLACK_FAIL_CHANNEL = "#centurylink-dev"
+//def SLACK_ALWAYS_CHANNEL = "#centurylink-alerts"
+//def SLACK_FAIL_CHANNEL = "#centurylink-dev"
 def XCODE_VERSION = '11.3'
 def XCODE_DEVICE = 'iPhone 11'
 
